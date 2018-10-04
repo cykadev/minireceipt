@@ -1,0 +1,63 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Shadows+Into+Light');
+
+
+@import 'porto/vendor/bootstrap/css/bootstrap.css';
+@import 'porto/vendor/font-awesome/css/font-awesome.css';
+// @import 'porto/vendor/magnific-popup/magnific-popup.css';
+// @import 'porto/vendor/bootstrap-datepicker/css/bootstrap-datepicker3.css';
+// @import 'porto/vendor/jquery-ui/jquery-ui.css';
+// @import 'porto/vendor/jquery-ui/jquery-ui.theme.css';
+// @import 'porto/vendor/bootstrap-multiselect/bootstrap-multiselect.css';
+// @import 'porto/vendor/morris.js/morris.css';
+@import 'porto/stylesheets/theme.css';
+@import 'porto/stylesheets/skins/default.css';
+@import 'porto/stylesheets/theme-custom.css';
+
+.inner-wrapper {
+    display: table;
+    min-height: 10vh;
+    padding-top: 60px;
+    table-layout: fixed;
+    overflow: hidden;
+    width: 100%;
+}
+.errorsServer li{
+	list-style: none;
+}
+.customError{
+	color: #E36159;
+}
+
+/* 
+Css Loader
+ */
+ .loader {
+    border: 2px solid #f3f3f3; /* Light grey */
+    border-top: 2px solid #3498db; /* Blue */
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    animation: spin 2s linear infinite;
+    margin-left:30%;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+/* 
+Data Table
+ */
+
+ .VueTables__date-filter {
+  border: 1px solid #ccc;
+  padding: 6px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+div.multiselect__select{
+  padding-top: 11%;
+}
