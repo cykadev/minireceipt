@@ -15,7 +15,7 @@ class AdminSeeder extends Seeder
  		DB::table('users')->truncate();
 
         User::create(
-        	['name' => 'cyka', 'role' => 1, 'email' => 'shebazmalik1@gmail.com', 'password' => bcrypt('sqlinjection221'), 'image' => 'dummy_image.png']
+        	['name' => 'cyka', 'role' => 1, 'email' => 'test@gmail.com', 'password' => bcrypt('12345678'), 'image' => 'dummy_image.png']
         	);
     }
 }
